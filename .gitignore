@@ -8,4 +8,5 @@
 !game
 !game/script-poemgame.rpy
 !game/script-poemgame-rewrite.rpy
+!game/poemwords.json
 !.gitignore

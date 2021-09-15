@@ -96,6 +96,15 @@ init python:
             self.points["yuri"] += word.get_field("yPoint", 0.0)
             self.points["natsuki"] += word.get_field("nPoint", 0.0)
             self.points["monika"] += word.get_field("mPoint", 0.0)
+            
+            if word.get_field("sPoint", 0.0) >= 3:
+                renpy.show("s_sticker hop", layer="screens")
+            if word.get_field("nPoint", 0.0) >= 3:
+                renpy.show("n_sticker hop", layer="screens")
+            if word.get_field("yPoint", 0.0) >= 3:
+                renpy.show("y_sticker hop", layer="screens")
+            if word.get_field("mPoint", 0.0) >= 3:
+                renpy.show("m_sticker hop", layer="screens")
 
         def _select_word(self, word):
             self.word_progress += 1
@@ -110,6 +119,12 @@ init python:
             return Function(self._select_word, word)
 
 label poem(transition=True):
+    show m_sticker at sticker_mid onlayer screens zorder 10:
+        yalign 0.45
+    show s_sticker at sticker_left onlayer screens zorder 10
+    show n_sticker at sticker_mid onlayer screens zorder 10
+    show y_sticker at sticker_right onlayer screens zorder 10
+
     call screen poem_interface()
     $ print(_return)
 

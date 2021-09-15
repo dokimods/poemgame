@@ -1,0 +1,1142 @@
+{
+    "raincloud": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "cute": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "despise": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "peace": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "summer": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "dance": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "essence": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "insight": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "entropy": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "existence": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "fear": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "milk": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "happiness": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "death": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "marshmallow": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "electricity": {
+        "sPoint": 1.0, 
+        "nPoint": 2.0, 
+        "yPoint": 3.0
+    }, 
+    "rose": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "treasure": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "sugar": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "tears": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "bliss": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "heavensent": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "crimson": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "smile": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "holiday": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "hope": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "tenacious": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "hop": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "blanket": {
+        "sPoint": 1.0, 
+        "nPoint": 3.0, 
+        "yPoint": 2.0
+    }, 
+    "incongruent": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "sunny": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "lucky": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "dark": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "whistle": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "anxiety": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "infallible": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "socks": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "kiss": {
+        "sPoint": 1.0, 
+        "nPoint": 3.0, 
+        "yPoint": 2.0
+    }, 
+    "bubbles": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "poof": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "desire": {
+        "sPoint": 1.0, 
+        "nPoint": 2.0, 
+        "yPoint": 3.0
+    }, 
+    "unrestrained": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "clouds": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "daydream": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "vibrant": {
+        "sPoint": 1.0, 
+        "nPoint": 2.0, 
+        "yPoint": 3.0
+    }, 
+    "unrequited": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "cry": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "candy": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "swimsuit": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "explode": {
+        "sPoint": 1.0, 
+        "nPoint": 2.0, 
+        "yPoint": 3.0
+    }, 
+    "unstable": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "whirlwind": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "disaster": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "cage": {
+        "sPoint": 1.0, 
+        "nPoint": 2.0, 
+        "yPoint": 3.0
+    }, 
+    "melancholy": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "fluffy": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "nibble": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "sensation": {
+        "sPoint": 1.0, 
+        "nPoint": 2.0, 
+        "yPoint": 3.0
+    }, 
+    "hair": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "horror": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "bouncy": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "nightgown": {
+        "sPoint": 1.0, 
+        "nPoint": 3.0, 
+        "yPoint": 2.0
+    }, 
+    "frightening": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "portrait": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "afterimage": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "melody": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "depression": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "flee": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "misfortune": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "flower": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "lipstick": {
+        "sPoint": 1.0, 
+        "nPoint": 3.0, 
+        "yPoint": 2.0
+    }, 
+    "memories": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "disarray": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "sparkle": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "atone": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "passion": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "playground": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "marriage": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "starscape": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "email": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "jumpy": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "lazy": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "philosophy": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "doki-doki": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "nature": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "joy": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "forgive": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "broken": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "suicide": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "contamination": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "alone": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "sing": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "precious": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "tragedy": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "extreme": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "giggle": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "uncontrollable": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "extraordinary": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "universe": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "scars": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "journey": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "games": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "hopeless": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "defeat": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "heartbeat": {
+        "sPoint": 1.0, 
+        "nPoint": 3.0, 
+        "yPoint": 2.0
+    }, 
+    "aura": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "loud": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "childhood": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "fester": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "love": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "family": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "color": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "sweet": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "ribbon": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "valentine": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "clumsy": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "spinning": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "promise": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "laugh": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "secretive": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "fireflies": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "fantasy": {
+        "sPoint": 1.0, 
+        "nPoint": 3.0, 
+        "yPoint": 2.0
+    }, 
+    "disown": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "landscape": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "kawaii": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "agonizing": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "wrath": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "judgment": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "flying": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "question": {
+        "sPoint": 1.0, 
+        "nPoint": 2.0, 
+        "yPoint": 3.0
+    }, 
+    "vacation": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "lollipop": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "wonderful": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "music": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "calm": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "vertigo": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "peaceful": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "captive": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "feather": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "climax": {
+        "sPoint": 1.0, 
+        "nPoint": 2.0, 
+        "yPoint": 3.0
+    }, 
+    "empty": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "cheeks": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "breathe": {
+        "sPoint": 1.0, 
+        "nPoint": 2.0, 
+        "yPoint": 3.0
+    }, 
+    "fickle": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "shopping": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "graveyard": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "fireworks": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "vitality": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "hurt": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "grief": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "warm": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "determination": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "inferno": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "jump": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "raindrops": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "skipping": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "pout": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "vanilla": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "unending": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "bed": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "excitement": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "strawberry": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "sadness": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "silly": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "uncanny": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "fun": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "imagination": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "heart": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "headphones": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "whisper": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "awesome": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "ambient": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "sticky": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "lust": {
+        "sPoint": 1.0, 
+        "nPoint": 2.0, 
+        "yPoint": 3.0
+    }, 
+    "shame": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "embrace": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "analysis": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "prayer": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "anger": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "disoriented": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "skirt": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "pink": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "rainbow": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "dazzle": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "vivid": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "boop": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "mouse": {
+        "sPoint": 1.0, 
+        "nPoint": 3.0, 
+        "yPoint": 2.0
+    }, 
+    "comfort": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "meager": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "romance": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "amazing": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "special": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "pure": {
+        "sPoint": 1.0, 
+        "nPoint": 3.0, 
+        "yPoint": 2.0
+    }, 
+    "party": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "puppy": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "bunny": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "anime": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "eternity": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "play": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "massacre": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "pain": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "time": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "beauty": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "kitty": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "misery": {
+        "sPoint": 3.0, 
+        "nPoint": 1.0, 
+        "yPoint": 2.0
+    }, 
+    "papa": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "waterfall": {
+        "sPoint": 1.0, 
+        "nPoint": 3.0, 
+        "yPoint": 2.0
+    }, 
+    "charm": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "adventure": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "variance": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "infinite": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "parfait": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "chocolate": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "friends": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "destiny": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "vivacious": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "intellectual": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "effulgent": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "shiny": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "covet": {
+        "sPoint": 1.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "together": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "ocean": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "cheer": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "sunset": {
+        "sPoint": 3.0, 
+        "nPoint": 2.0, 
+        "yPoint": 1.0
+    }, 
+    "incapable": {
+        "sPoint": 2.0, 
+        "nPoint": 1.0, 
+        "yPoint": 3.0
+    }, 
+    "twirl": {
+        "sPoint": 2.0, 
+        "nPoint": 3.0, 
+        "yPoint": 1.0
+    }, 
+    "pleasure": {
+        "sPoint": 1.0, 
+        "nPoint": 2.0, 
+        "yPoint": 3.0
+    }, 
+    "dream": {
+        "sPoint": 2.0, 
+        "nPoint": 2.0, 
+        "yPoint": 3.0
+    }
+}
