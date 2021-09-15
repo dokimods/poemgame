@@ -1,0 +1,11 @@
+##########################
+##- Poemgame -------------
+##########################
+
+## Ignore all files other than script-poemgame.rpy
+*
+
+!game
+!game/script-poemgame.rpy
+!game/script-poemgame-rewrite.rpy
+!.gitignore
