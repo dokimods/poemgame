@@ -60,11 +60,14 @@ init -1 python:
             with open(os.path.join(config.gamedir, json_path), "wb+") as wordfile:
                 wordfile.write(json.dumps(json_contents, indent=4, sort_keys=False))
 
+    PoemWord.load_from_json("poemwords.json")
+
 init python:
     import random
 
     class PoemGame(object):
-        def __init__(self, max_words=20):
+        def __init__(self, callbacks, max_words=20):
+            self.callbacks = callbacks
             self.words = PoemWord.wordlist.copy()
             self.current_words = [ ]
 
@@ -97,14 +100,10 @@ init python:
             self.points["natsuki"] += word.get_field("nPoint", 0.0)
             self.points["monika"] += word.get_field("mPoint", 0.0)
             
-            if word.get_field("sPoint", 0.0) >= 3:
-                renpy.show("s_sticker hop", layer="screens")
-            if word.get_field("nPoint", 0.0) >= 3:
-                renpy.show("n_sticker hop", layer="screens")
-            if word.get_field("yPoint", 0.0) >= 3:
-                renpy.show("y_sticker hop", layer="screens")
-            if word.get_field("mPoint", 0.0) >= 3:
-                renpy.show("m_sticker hop", layer="screens")
+            cb = self.callbacks.get("word_callback", None)
+
+            if cb is not None:
+                cb(word)
 
         def _select_word(self, word):
             self.word_progress += 1
@@ -118,28 +117,173 @@ init python:
         def SelectWord(self, word):
             return Function(self._select_word, word)
 
-label poem(transition=True):
-    show m_sticker at sticker_mid onlayer screens zorder 10:
-        yalign 0.45
-    show s_sticker at sticker_left onlayer screens zorder 10
-    show n_sticker at sticker_mid onlayer screens zorder 10
-    show y_sticker at sticker_right onlayer screens zorder 10
+init:
+    python:
+        class ChibiTransform(object):
+            def __init__(self):
+                self.pos = renpy.random.randint(-1,1)
+                self.xzoom = 1
+                self.xoffset = 0
+                self.time = renpy.random.random() * 4 + 4
 
+            def pause(self, trans, st, at):
+                if st > self.time:
+                    self.time = renpy.random.random() * 4 + 4
+                    return None
+
+                return 0.0
+
+            def move(self, trans, st, at):
+                if st > .16:
+                    if self.pos > 0:
+                        self.pos = renpy.random.randint(-1,0)
+                    elif self.pos < 0:
+                        self.pos = renpy.random.randint(0,1)
+                    else:
+                        self.pos = renpy.random.randint(-1,1)
+
+                    if trans.xoffset * self.pos > 5:
+                        self.pos *= -1
+
+                    return None
+
+                if self.pos > 0:
+                    trans.xzoom = -1
+                elif self.pos < 0:
+                    trans.xzoom = 1
+
+                trans.xoffset += .16 * 10 * self.pos
+                self.xoffset = trans.xoffset
+                self.xzoom = trans.xzoom
+                return 0.0
+
+        def sticker_pos_xcenter(r):
+            start = 100
+            d = 120
+
+            return start + d * (r - 1)
+
+        def sticker_pos_yalign(c):
+            return 0.5 if c == 1 else 0.9
+
+        class Sticker(object):
+            def __init__(self, idle, hop, **kwargs):
+                super(Sticker, self).__init__(**kwargs)
+
+                self.transform_animation = ChibiTransform()
+
+                self.idle = renpy.displayable(idle)
+                self.hop = renpy.displayable(hop)
+                self.in_hop = False
+
+            def set_hop(self):
+                self.in_hop = True
+
+            def clear_hop(self):
+                self.in_hop = False
+
+            def __call__(self):
+                if not self.in_hop:
+                    return At(self.idle, sticker_animation(self.transform_animation))
+
+                return At(self.hop, sticker_hop)
+
+    transform sticker_animation(trans_object):
+        # function trans_object.pause
+        pause 1.0
+        parallel:
+            sticker_move_n
+        parallel:
+            function trans_object.move
+        repeat
+
+    transform sticker_move_n:
+        easein_quad .08 yoffset -15
+        easeout_quad .08 yoffset 0
+
+    transform sticker_hop:
+        easein_quad .18 yoffset -80
+        easeout_quad .18 yoffset 0
+        easein_quad .18 yoffset -80
+        easeout_quad .18 yoffset 0
+
+    transform sticker_pos(r=1, c=1):
+        subpixel True
+        xcenter sticker_pos_xcenter(r)
+        yalign sticker_pos_yalign(c)
+
+    image m_sticker:
+        "gui/poemgame/m_sticker_1.png"
+
+    image m_sticker hop:
+        "gui/poemgame/m_sticker_2.png"
+
+    image n_sticker:
+        "gui/poemgame/n_sticker_1.png"
+
+    image n_sticker hop:
+        "gui/poemgame/n_sticker_2.png"
+
+    image s_sticker:
+        "gui/poemgame/s_sticker_1.png"
+
+    image s_sticker hop:
+        "gui/poemgame/s_sticker_2.png"
+
+    image y_sticker:
+        "gui/poemgame/y_sticker_1.png"
+
+    image y_sticker hop:
+        "gui/poemgame/y_sticker_2.png"
+
+    python:
+        yuri_sticker = Sticker("y_sticker", "y_sticker hop")
+        monika_sticker = Sticker("m_sticker", "m_sticker hop")
+        sayori_sticker = Sticker("s_sticker", "s_sticker hop")
+        natsuki_sticker = Sticker("n_sticker", "n_sticker hop")
+
+        def callback(word):
+            if word.get_field("sPoint", 0.0) >= 3.0:
+                sayori_sticker.set_hop()
+
+            if word.get_field("yPoint", 0.0) >= 3.0:
+                yuri_sticker.set_hop()
+
+            if word.get_field("nPoint", 0.0) >= 3.0:
+                natsuki_sticker.set_hop()
+
+            if word.get_field("mPoint", 0.0) >= 3.0:
+                monika_sticker.set_hop()
+
+
+label poem(transition=True):
     call screen poem_interface()
     $ print(_return)
 
 screen poem_interface():
     style_prefix "poem_interface"
 
-    default poem_game = PoemGame()
+    default poem_game = PoemGame(
+        callbacks={
+            "word_callback": callback
+        }
+    )
 
     add poem_game.background()
+    use poem_game_stickers()
 
     grid 2 5:
         for word in poem_game.iterate_words():
             use poem_word(poem_game, word)
 
     text _(poem_game.progress())
+
+screen poem_game_stickers():
+    for i, sticker in enumerate([ natsuki_sticker, sayori_sticker, monika_sticker, yuri_sticker ]):
+        add sticker() at sticker_pos((i % 3) + 1, (i) // 3)
+
+        if sticker.in_hop:
+            timer 0.18 * 4.0 action Function(sticker.clear_hop)
 
 style poem_interface_grid:
     xpos 440 ypos 160
